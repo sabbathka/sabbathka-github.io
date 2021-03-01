@@ -1,0 +1,28 @@
+div {
+  width: 450px;
+  margin: auto;
+}
+
+h1 {
+  color: #F66650;
+}
+
+h2 {
+  color: #7D33D1;
+} 
+
+ul {
+  list-style: square;
+}
+
+ol {
+  list-style-type: upper-roman;
+  color: #C647AE;
+  text-decoration: underline;  
+}
+
+#nemszines {
+  color: black;
+  text-decoration: underline;
+  /* text-decoration-color: black; */
+}

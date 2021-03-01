@@ -1,0 +1,29 @@
+h1 {
+  color: #F66650;
+}
+
+h2 {
+  color: #7D33D1;
+} 
+
+ul {
+  list-style: square;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+.fuxia {
+  color: #C647AE;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+
+body {
+  width: 450px;
+  margin: auto auto;
+}

@@ -1,0 +1,13 @@
+p {
+  background: #0D91A1;
+  color: #015668;
+  width: 290px;
+  height: 85px;
+  padding: 15px 30px 40px 20px;
+  margin: 20px;
+  border: 5px;
+  border-color: #7DCE94;
+  border-style: solid;
+  font-family: 'Lobster Two', cursive;
+  font-size: 40px;
+}

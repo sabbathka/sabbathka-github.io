@@ -1,0 +1,28 @@
+form {
+    font-family: 'Averia Sans Libre', cursive;
+}
+
+input, label {
+  display: block;
+}
+
+label, button {
+  text-transform: uppercase;
+}
+
+button {
+  color: darkgreen;
+  font-weight: bold;
+  background: lightgreen;
+  border-radius: 20px;
+  border-style: none;
+  padding: 10px;
+  margin: 10px 60px;
+}
+
+input {
+  border: 2px solid lime;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}

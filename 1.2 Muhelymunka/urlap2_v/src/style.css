@@ -1,0 +1,109 @@
+#formID {
+  width: 400px;
+  font-family: 'Raleway', sans-serif;
+  margin: auto auto; 
+}
+
+.keret {
+  color: brown;
+  border-color: brown;
+  background-color: beige;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+
+.kerdesek {
+  color: darkblue;
+  border-color: darkblue;
+}
+
+
+
+#piros {
+  color: red;
+  
+}
+
+#zold {
+  color: green;
+}
+
+#kek {
+  color: blue;
+}
+
+#egyeb {
+  color: gray;
+}
+
+
+
+
+input[type="checkbox"] {
+  
+  width: 12px;
+  height: 12px;
+  margin: 0px 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance:none;
+  
+}
+
+
+input[type="checkbox"]:not(:checked).piros  {
+  border: 1px solid red;
+  
+}
+
+input[type="checkbox"]:not(:checked).zold {
+  border: 1px solid green;
+  
+}
+
+input[type="checkbox"]:not(:checked).kek {
+  border: 1px solid blue;
+  
+}
+
+input[type="checkbox"]:not(:checked).egyeb {
+  border: 1px solid gray;
+  
+}
+
+
+
+input[type="checkbox"]:checked.piros {
+  border: 1px solid red;
+  background-color: red;
+}
+
+input[type="checkbox"]:checked.zold {
+  border: 1px solid green;
+  background-color: lightgreen;
+}
+
+input[type="checkbox"]:checked.kek {
+  border: 1px solid blue;
+  background-color: lightblue;
+}
+
+input[type="checkbox"]:checked.egyeb {
+  border: 1px solid gray;
+  background-color: lightgray;
+}  
+
+
+#submit {
+  color: darkgreen;
+  background-color: lightgreen;
+}
+
+#reset {
+  color: darkred;
+  background-color: lightsalmon;
+}

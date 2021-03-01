@@ -1,0 +1,73 @@
+<form id="formID">
+  <fieldset class="keret">
+    <legend id="bold">
+      Interesting application form 
+      <img src="https://icons.iconarchive.com/icons/led24.de/led/16/smiley-roll-icon.png" alt="smile">
+    </legend>
+  
+    <fieldset class="kerdesek">
+      <legend>
+        <label for="name">What is your name?</label>
+      </legend>
+      <label for="name"></label>
+      <input type="text" id="name">
+    </fieldset>
+    
+    <fieldset class="kerdesek">
+      <legend >What is your favorit color?</legend>
+      <div id="piros">
+        <input type="checkbox" id="red" class="piros">
+        <label for="red">Red</label>
+      </div>
+      <div id="zold">
+        <input type="checkbox" id="green" class="zold">
+        <label for="green">Green</label>
+      </div>
+      <div id="kek"> 
+        <input type="checkbox" id="blue" class="kek">
+        <label for="blue">Blue</label>
+      </div>
+      <div id="egyeb">
+        <input type="checkbox" id="other" name="othercheckbox" value="other" class="egyeb">
+        <label for="other">Other</label>
+        <input type="text" id="otherValue" name="othertext">
+      </div>
+      
+      
+      
+    </fieldset>
+
+    <fieldset class="kerdesek">
+      <legend >Would you like a become a developer?</legend>
+      <div>
+        <input type="radio" id="eng" name="radio" value="yes">
+        <label for="eng">Yes</label>
+      </div>
+      <div>
+        <input type="radio" id="chs" name="radio" value="ano" checked>
+        <label for="chs">Ano</label>
+      </div>
+      <div>
+        <input type="radio" id="hun" name="radio" value="igen">
+        <label for="hun">Igen</label>
+      </div>
+      <div>
+        <input type="radio" id="kin" name="radio" value="shide">
+        <label for="kin">是的</label>
+      </div> 
+    </fieldset>
+
+    <fieldset class="kerdesek">
+      <legend >
+        <label for="comm">Why would you like a become a developer?</label>
+        </legend>
+      <div>
+        <textarea rows="8" cols="25" name="comment" form="formID" id="comm">
+        </textarea>
+      </div> 
+    <button type="submit" id="submit">Submit</button>
+    <button type="reset" id="reset">Reset</button>
+    </fieldset>
+  
+  </fieldset>
+</form>

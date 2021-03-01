@@ -1,0 +1,108 @@
+#fejlec {
+  width: 1278px;
+  margin: auto;
+  /* height: auto; */
+  color: #222;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  position: relative;  
+}
+
+#fejlec img {
+  width: 100%;
+}
+
+#fejlec h1, h4 {
+  font-weight: normal;
+  margin-block: -20px 0px;
+
+}
+
+#fejlec div {
+  /*  margin-left: -90px; */
+  position: absolute;
+  bottom: 40px;
+  left: 295px;
+
+}
+
+.tartalom {
+  width: 695px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  line-height: 190%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.tartalom span {
+  font-weight: bold;
+}
+
+.tartalom h2 {
+  text-transform: uppercase;
+  padding: 20px 0px;
+}
+
+.tartalom h3 {
+  font-size: 22.5px;
+  margin-block:0px;
+  margin: 50px 0px 0px 0px;
+}
+
+.felirat {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 15px;
+  margin-block: 0px;
+}
+
+.tartalom blockquote {
+line-height: 150%;
+  height: auto;
+  margin-inline:-40px;
+  padding: 55px 55px;
+  background-color: #444;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.tartalom div {
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  /* left: -15px;
+  font-style: italic; */
+  font-size: 150px;
+  
+}
+
+.nagyobb {
+  font-size: 17.5px;
+}
+
+.kisebb {
+  font-size: 13.5px;
+}
+
+.bigger {
+  list-style-type: square;
+  font-size: 16.5px;
+}
+
+.smaller {
+  list-style-type: square;
+  font-size: 14px;
+}
+
+
+#lablec {
+  background: lightblue url("img_tree.gif") no-repeat fixed center;
+}
+

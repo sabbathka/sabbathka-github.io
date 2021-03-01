@@ -1,0 +1,61 @@
+.purple {
+  height: 70px;
+  width: 100%;
+  background-color: purple;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  padding-inline-start: 90px;
+  position: fixed;
+  top: 0;
+}
+
+.cyan {
+  height: 30px;
+  background-color: cyan;
+  margin: 10px;
+  
+}
+
+#menu1 {
+  width: 100px;
+}
+
+#menu2 {
+  width: 150px;
+}
+
+
+#menu3 {
+  width: 100px;
+}
+
+#menu4 {
+  width: 100px;
+}
+
+
+.yellowgreen {
+  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 80px 100px 10px 100px;
+}
+
+.yellow {
+  
+  background-color: yellow;
+  flex-grow: 4;
+}
+
+.green {
+  
+  background-color: lime;
+  flex-grow: 1;
+}
+
+.gray {
+  height: 80px;
+  background-color: gray;
+  margin: 0px 100px;
+}

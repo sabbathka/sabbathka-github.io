@@ -1,0 +1,60 @@
+.cyan {
+  height: 70px;
+  background-color: cyan;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+.orp {
+  height: 500px;
+  display: flex;
+  
+  
+}
+
+
+.orange {
+  
+  background-color: orange;
+  flex-grow: 1;
+}
+
+.red {
+  
+  background-color: red;
+  flex-grow: 3;
+  margin: 0px 20px;
+  position: relative;
+}
+
+.purple {
+  
+  background-color: purple;
+  flex-grow: 1;
+}
+
+
+.black {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  right: 30px;
+  bottom: 35px;
+}
+
+.blue {
+  height: 80px;
+  background-color: blue;
+  margin: 0px;
+}
+
+
+body {
+  width: 100%;
+  margin: auto;
+}

@@ -1,0 +1,46 @@
+.purple {
+  height: 50px;
+  background-color: purple;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.cyan {
+  height: 30px;
+  background-color: cyan;
+  margin: 10px;
+  
+}
+
+#menu1 {
+  width: 100px;
+}
+
+#menu2 {
+  width: 150px;
+}
+
+
+#menu3 {
+  width: 100px;
+}
+
+
+.yellowgreen {
+  height: 500px;
+  display: flex;
+}
+
+.yellow {
+  
+  background-color: yellow;
+  flex-grow: 4;
+}
+
+.green {
+  
+  background-color: lime;
+  flex-grow: 1;
+}
